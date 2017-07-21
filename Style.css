@@ -67,8 +67,7 @@ li {
     font-size: 25px;
     font-family: 'Playfair Display';
     color: #FFF6F0;
-    height:auto;
-    
+    height:auto;    
     padding-bottom:185.98px;
 }
 .regBackground {
@@ -126,4 +125,15 @@ div.height{
 }
 .removePad {
     padding:0px;
+}
+h1.height{
+    height:100px;
+}
+.carouselText {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    color: #474E5D;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
