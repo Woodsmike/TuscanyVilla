@@ -1,2 +1,28 @@
-﻿body {
+﻿/*font-family: 'Lemonada', cursive; font-family: 'Playfair Display', serif; 
+    font-family: 'Josefin Sans', sans-serif; font-family: 'Abel', sans-serif; 
+    font-family: 'Shadows Into Light', cursive; font-family: 'Gruppo', cursive;*/
+#logoImg {
+    width: 35px;
+    margin-top: 0px;
+    margin-right: 3px;
+    margin-left: 25px;
 }
+nav#navvy.navbar.navbar-static-top {
+    margin-bottom: 0px;
+    background-color: #474E5D;
+    color: #FFF6F0;
+}
+li {
+    letter-spacing:4px;
+    padding-right:8px;
+}
+#navvy a {
+    color: #FFF6F0;
+}
+
+    #navvy a:hover {
+        background: none;
+    }
+    .navbar-header {
+        nav-right:auto;
+    }
