@@ -7,6 +7,15 @@
     margin-right: 3px;
     margin-left: 25px;
 }
+p {
+    font-size:15px;
+}
+h1{
+    font-size:50px;
+}
+.centered{
+    text-align:center;
+}
 nav#navvy.navbar.navbar-static-top {
     margin-bottom: 0px;
     background-color: #474E5D;
@@ -68,6 +77,7 @@ li {
     padding-bottom:20px;
     
 }
+
 #locFirstSection {
     text-align: center;
     font-size: 50px;
@@ -102,9 +112,18 @@ li {
 .whiteLetter {
     color: #FFF6F0;
 }
-div.compress{
+#compress{
     margin-left:30px;
     margin-right:5px;
     padding-left:0px;
-
+}
+.compressHgt{
+    margin:45px;
+    padding:0px;
+}
+div.height{
+    height:504px;
+}
+.removePad {
+    padding:0px;
 }
