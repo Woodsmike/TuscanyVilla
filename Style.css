@@ -26,3 +26,37 @@ li {
     .navbar-header {
         nav-right:auto;
     }
+.bgImg {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');   
+    background-size:cover;
+    padding-right:25px;
+    
+    height:100%;
+    margin: 0px;
+    
+}
+#sideImage{
+    text-align:right;
+}
+
+.fullWidth{
+    width:100%;   
+ 
+}
+.fullWidth1 {
+    padding:0%;
+}
+.firstSection {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 12px;
+    color: #FFF6F0;
+    font-family: 'Playfair Display';
+}
+.smallerSection {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display';
+    color: #FFF6F0;
+    padding-bottom: 204.71px;
+}
