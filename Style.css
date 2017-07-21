@@ -28,9 +28,8 @@ li {
     }
 .bgImg {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');   
-    background-size:cover;
-    padding-right:25px;
-    
+    background-size:cover;  
+    padding-left:0px;
     height:100%;
     margin: 0px;
     
@@ -46,17 +45,66 @@ li {
 .fullWidth1 {
     padding:0%;
 }
-.firstSection {
+#firstSection {
     text-align: center;
     font-size: 80px;
     padding-top: 12px;
+    padding-bottom:0px;
     color: #FFF6F0;
     font-family: 'Playfair Display';
 }
-.smallerSection {
+#smallerSection {
     text-align: center;
     font-size: 25px;
     font-family: 'Playfair Display';
     color: #FFF6F0;
-    padding-bottom: 204.71px;
+    height:auto;
+    
+    padding-bottom:185.98px;
+}
+.regBackground {
+    background-color: #474E5D;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+#locFirstSection {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0px;
+    margin-top:0px;
+    color: #FFF6F0;
+    font-family: 'Playfair Display';
+}
+#locSmallerSection {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    color: #FFF6F0;
+    padding-bottom: 20px;
+}
+.button {
+    background-color: #474E5D;
+    color:#FFF6F0;
+}
+.afterLoc{
+    margin: 4px;
+    padding: 30px;
+}
+.beforeH2LocationSection {
+    padding-top:20px
+}
+.afterLocWithBG {
+    margin: 4px;
+    padding: 30px;
+    background-color: #474E5D;
+}
+.whiteLetter {
+    color: #FFF6F0;
+}
+div.compress{
+    margin-left:30px;
+    margin-right:5px;
+    padding-left:0px;
+
 }
