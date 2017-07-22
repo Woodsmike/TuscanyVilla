@@ -129,10 +129,10 @@ div.height{
 h1.height{
     height:100px;
 }
-.carouselText {
+h3.carouselText {
     text-align: center;
-    font-size: 30px;
-    font-family: 'Playfair Display';
+    font-size: 25px;
+    font-family: 'Shadows Into Light';
     color: #474E5D;
     padding-top: 20px;
     padding-bottom: 20px;
