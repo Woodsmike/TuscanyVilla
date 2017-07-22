@@ -17,7 +17,6 @@
     <title>Tuscany Villa</title>
 </head>
 <body>
-
     <div class="container-fluid">
         <nav class="navbar navbar-static-top" id="navvy">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,19 +40,20 @@
             </div><!-- /.navbar-collapse -->
         </nav>
     </div><!-- /.container-fluid -->
-
-    <div class="container-fluid" id="compress">
-        <div class="row">
-            <div class="col-md-9 bgImg">
-                <h1 id="firstSection">Tuscany Villa</h1>
-                <p id="smallerSection">We specialize in relaxation</p>
-            </div>
-            <div class="col-md-3 fullWidth1">
-                <!--fullWidth1-->
-                <img class="img-responsive" src="Images/Versilia.jpg" style="height:361.5px" />
+    <header>
+        <div class="container-fluid textPos">
+            <div class="row">
+                <div class="col-md-9" style="padding-right:0px;">
+                    <img class="img-responsive" src="Images/tuscany-villas-sant-anna.jpg" />
+                    <div id="firstSection">Tuscany Villa</div>
+                    <div id="smallerSection">We specialize in relaxation</div>
+                </div>
+                <div class="col-md-3" style="padding-left:0px;">
+                    <img class="img-responsive" src="Images/Versilia.jpg" style="max-height:436.81px; overflow:hidden;" />
+                </div>
             </div>
         </div>
-    </div>
+    </header>
     <div class="container-fluid">
         <div class="regBackground">
             <h1 id="locFirstSection">Locations</h1>
@@ -64,7 +64,7 @@
         <div class="row afterLoc">
             <div class="col-md-7">
                 <h2 class="beforeH2LocationSection">Location #1</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu iat nulla pariatur."</p>
                 <button class="button">Reserve Now</button>
             </div>
             <div class="col-md-5">
@@ -107,16 +107,22 @@
     <div class="container-fluid compressHgt">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 removePad">
+                <div class="col-md-4 removePad textPos">
                     <img class="img-responsive" src="Images/3b-348x348.jpg" style="height:475px;" />
+                    <div class="inner_box">
+                    <h2>RECEPTIONS</h2>
+                </div>
                 </div>
                 <div class="col-md-4 centered">
                     <h1 class="beforeH2LocationSection">A Villa for Every Occasion</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <button class="button">Check It Out</button>
                 </div>
-                <div class="col-md-4 removePad">
+                <div class="col-md-4 removePad textPos">
                     <img class="img-responsive" src="Images/42-348x348.jpg" style="height:475px;" />
+                    <div class="inner_box">
+                        <h2>RELAX BY THE POOL</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,8 +133,11 @@
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <button class="button">Check It Out</button>
                 </div>
-                <div class="col-md-4 removePad">
+                <div class="col-md-4 removePad textPos">
                     <img class="img-responsive" src="Images/314-348x348.jpg" style="height:475px;" />
+                    <div class="inner_box">
+                        <h2>FEELS LIKE HOME</h2>
+                    </div>
                 </div>
                 <div class="col-md-4 centered">
                     <h1 class="beforeH2LocationSection">Talk to the Staff</h1>
@@ -139,16 +148,22 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 removePad">
+                <div class="col-md-4 removePad textPos">
                     <img class="img-responsive" src="Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg" style="height:475px;" />
+                    <div class="inner_box">
+                        <h2>ENJOY THE VIEWS</h2>
+                    </div>
                 </div>
                 <div class="col-md-4 centered">
                     <h1 class="beforeH2LocationSection">Book Your Villa</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <button class="button">Check It Out</button>
                 </div>
-                <div class="col-md-4 removePad">
+                <div class="col-md-4 removePad textPos">
                     <img class="img-responsive" src="Images/Villa-Vanna-231-348x348.jpg" style="height:475px;" />
+                    <div class="inner_box">
+                        <h2>PRIVATE DINING</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -215,18 +230,26 @@
             </div>
             <div class="col-md-7">
                 <form class="form-inline">
-                    <div class="form-group">                        
-                        <input type="text" class="form-control " id="usr" placeholder="Name" style="width:290px;" >          
-                        <input type="email" class="form-control" id="email" placeholder="Email"style="width:290px; margin-left:45px;">
+                    <div class="form-group">
+                        <input type="text" class="form-control " id="usr" placeholder="Name" style="width:290px;">
+                        <input type="email" class="form-control" id="email" placeholder="Email" style="width:290px; margin-left:0px;">
                     </div>
                 </form>
                 <form>
-                    <div class="form-group">                        
+                    <div class="form-group">
                         <textarea class="form-control topMargin" rows="5" id="comment" placeholder="Comment"></textarea>
                     </div>
                     <button class="button" id="buttonRight">Submit</button>
                 </form>
             </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="regBackground">
+            <footer>
+                <h1 id="locFooter">Created by: Mike Woods</h1>
+                <p id="copyright">NOT AT ALL copyrighted</p>
+            </footer>
         </div>
     </div>
 </body>
