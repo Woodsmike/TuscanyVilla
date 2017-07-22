@@ -22,9 +22,12 @@ nav#navvy.navbar.navbar-static-top {
     color: #FFF6F0;
 }
 li {
-    letter-spacing:4px;
-    padding-right:8px;
+    letter-spacing: 4px;
+    padding-right: 8px;
 }
+ol#dark {
+        color: #474E5D;
+    }
 #navvy a {
     color: #FFF6F0;
 }
@@ -42,9 +45,6 @@ li {
     height:100%;
     margin: 0px;
     
-}
-#sideImage{
-    text-align:right;
 }
 
 .fullWidth{
@@ -134,6 +134,25 @@ h3.carouselText {
     font-size: 25px;
     font-family: 'Shadows Into Light';
     color: #474E5D;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#compressForm {
+    margin: 45px;
+    padding: 45px;
+}
+form.widthForm {
+    width:700px;
+    padding-right:400px;
+}
+button#buttonRight {
+    float: right;
+}
+.topMargin{
+    margin-top:20px;
+}
+.contactFloat {
+    margin: 4px;
+    padding-top: 30px;
+    padding-bottom:30px;
 }
