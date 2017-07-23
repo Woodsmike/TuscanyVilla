@@ -7,27 +7,40 @@
     margin-right: 3px;
     margin-left: 25px;
 }
+
 p {
-    font-size:15px;
+    font-size: 15px;
 }
-h1{
-    font-size:50px;
+
+h1 {
+    font-size: 50px;
 }
-.centered{
-    text-align:center;
+
+.centered {
+    text-align: center;
 }
+
 nav#navvy.navbar.navbar-static-top {
     margin-bottom: 0px;
     background-color: #474E5D;
     color: #FFF6F0;
 }
+
 li {
     letter-spacing: 4px;
     padding-right: 8px;
 }
+
 ol#dark {
-        color: #474E5D;
-    }
+    color: #474E5D;
+}
+
+nav#navvy.navbar.navbar-static-top {
+    margin-bottom: 0px;
+    background-color: #474E5D;
+    color: #FFF6F0;
+}
+
 #navvy a {
     color: #FFF6F0;
 }
@@ -35,56 +48,64 @@ ol#dark {
     #navvy a:hover {
         background: none;
     }
-    .navbar-header {
-        nav-right:auto;
-    }
-.bgImg {
-    background-image: url('Images/tuscany-villas-sant-anna.jpg');   
-    background-size:cover;  
-    padding-left:0px;
-    height:100%;
-    margin: 0px;
-    
+
+.navbar-header {
+    nav-right: auto;
 }
 
-.fullWidth{
-    width:100%;   
- 
+button.navbar-toggle {
+    border: 1px solid #FFF6F0;
 }
-.fullWidth1 {
-    padding:0%;
+
+span.icon-bar {
+    border: 1px solid #FFF6F0;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
 #firstSection {
     text-align: center;
-    font-size: 80px;
+    font-size: 75px;
     padding-top: 12px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
     color: #FFF6F0;
     font-family: 'Playfair Display';
+    position: absolute;
+    bottom: 300px;
+    left: 360px;
 }
+
 #smallerSection {
     text-align: center;
+    letter-spacing: 1px;
     font-size: 25px;
     font-family: 'Playfair Display';
     color: #FFF6F0;
-    height:auto;    
-    padding-bottom:185.98px;
+    height: auto;
+    position: absolute;
+    bottom: 270px;
+    left: 420px;
 }
+
 .regBackground {
     background-color: #474E5D;
-    padding-top:20px;
-    padding-bottom:20px;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #locFirstSection {
     text-align: center;
     font-size: 50px;
     padding-top: 0px;
-    margin-top:0px;
+    margin-top: 0px;
     color: #FFF6F0;
     font-family: 'Playfair Display';
 }
+
 #locSmallerSection {
     text-align: center;
     font-size: 30px;
@@ -92,67 +113,151 @@ ol#dark {
     color: #FFF6F0;
     padding-bottom: 20px;
 }
+
 .button {
     background-color: #474E5D;
-    color:#FFF6F0;
+    color: #FFF6F0;
 }
-.afterLoc{
+
+.afterLoc {
     margin: 4px;
-    padding: 30px;
+    padding: 40px;
 }
+
 .beforeH2LocationSection {
-    padding-top:20px
+    padding-top: 20px
 }
+
 .afterLocWithBG {
     margin: 4px;
-    padding: 30px;
+    padding: 40px;
     background-color: #474E5D;
 }
+
+#textPos { /**/
+    position: relative;
+}
+
+.textPos .inner_box {
+    text-align: center;
+    background: #474E5D;
+    opacity: .7;
+    letter-spacing: 1px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    color: #FFF6F0;
+    height: auto;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+    .textPos .inner_box h2 {
+        font-family: 'Playfair Display';
+        text-align: center;
+        font-size: 35px;
+        font-weight: normal;
+        color: #FFF;
+    }
+
 .whiteLetter {
     color: #FFF6F0;
 }
-#compress{
-    margin-left:30px;
-    margin-right:5px;
-    padding-left:0px;
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
 }
-.compressHgt{
-    margin:45px;
-    padding:0px;
+
+    div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+
+#compress {
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-left: 0px;
 }
-div.height{
-    height:504px;
+
+.compressHgt {
+    margin: 45px;
+    padding: 0px;
 }
+
+div.height {
+    height: 504px;
+}
+
 .removePad {
-    padding:0px;
+    padding: 0px;
 }
-h1.height{
-    height:100px;
-}
+
 h3.carouselText {
     text-align: center;
-    font-size: 25px;
-    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    font-family: 'Lemonada';
     color: #474E5D;
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
 #compressForm {
     margin: 45px;
     padding: 45px;
 }
-form.widthForm {
-    width:700px;
-    padding-right:400px;
+
+input#email.form-control {
+    float: right;
 }
+
+form.widthForm {
+    width: 700px;
+    padding-right: 400px;
+}
+
 button#buttonRight {
     float: right;
 }
-.topMargin{
-    margin-top:20px;
+
+.topMargin {
+    margin-top: 20px;
 }
+
 .contactFloat {
     margin: 4px;
     padding-top: 30px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
+}
+
+#locFooter {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    color: #FFF6F0;
+    font-family: 'Playfair Display';
+}
+
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Playfair Display';
+    color: #FFF6F0;
+    padding-bottom: 20px;
+}
+
+div.form-group {
+    width: 100%;
+}
+
+.img-responsive {
+    width: 100%;
 }
