@@ -18,8 +18,9 @@
 </head>
 <body>
     <div class="container-fluid">
+        <!--For best results of keeping the header section responsive I needed to enclose the navbar with this container-->
         <nav class="navbar navbar-static-top" id="navvy">
-            <!-- Brand and toggle get grouped for better mobile display -->
+            <!--the id is to keep the items in the navbar from having hover background colors-->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -39,46 +40,51 @@
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
-    </div><!-- /.container-fluid -->
+    </div>
     <header>
+        <!--header semantic tag-->
         <div class="container-fluid textPos">
+            <!--I used the container-fluid because it allowed responsiveness the best, although not perfect.  The second class is to put text on top of the picture-->
             <div class="row">
-                <div class="col-md-9" style="padding-right:0px;">
+                <div class="col-md-9 col-sm-12" style="padding-right:0px;">
                     <img class="img-responsive" src="Images/tuscany-villas-sant-anna.jpg" />
-                    <div id="firstSection">Tuscany Villa</div>
+                    <div id="firstSection">Tuscany Villa</div><!--this div and the one below is the text that goes on top of the picture-->
                     <div id="smallerSection">We specialize in relaxation</div>
                 </div>
-                <div class="col-md-3" style="padding-left:0px;">
-                    <img class="img-responsive" src="Images/Versilia.jpg" style="max-height:425.67px; overflow:hidden;" />
+                <div class="col-md-3 col-sm-12" style="padding-left:0px;">
+                    <img class="img-responsive" src="Images/Versilia.jpg" style="overflow:hidden;" />
                 </div>
             </div>
         </div>
     </header>
     <div class="container-fluid">
-        <div class="regBackground">
-            <h1 id="locFirstSection">Locations</h1>
-            <p id="locSmallerSection">Some place for you to go</p>
+        <div class="darkerBackground">
+            <h1 class="h1Section">Locations</h1><!--used h1Section class in many places for larger print, font size and family, color, and text-aligned. -->
+            <p class="pSmallerSection">Some place for you to go</p><!--used pSmallerSection class in many places for larger print, font size and family, color, and text-aligned. -->
         </div>
     </div>
     <div class="container-fluid">
         <div class="row afterLoc">
-            <div class="col-md-7">
-                <h2 class="beforeH2LocationSection">Location #1</h2>
+            <!--the afterLoc class is to add padding -->
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <!--I used 3 size designations depending on size of the screen, the smaller screens get full coverage for each column-->
+                <h2>Location #1</h2>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu iat nulla pariatur."</p>
                 <a href="https://www.google.com/" class="button" role="button">Reserve Now</a>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 col-sm-12 col-xs-12">
                 <img class="img-responsive" src="Images/italy-mountain-villa.jpeg" />
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row afterLocWithBG">
-            <div class="col-md-5">
+            <!--the afterLowWithBG adds padding and a background color-->
+            <div class="col-md-5 col-sm-12 col-xs-12">
                 <img class="img-responsive" src="Images/modern-villa.jpeg" />
             </div>
-            <div class="col-md-7">
-                <h2 class="beforeH2LocationSection whiteLetter">Location #2</h2>
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <h2>Location #2</h2>
                 <p class="whiteLetter">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
                 <a href="https://www.google.com/" class="button" role="button">Check It Out</a>
             </div>
@@ -86,40 +92,41 @@
     </div>
     <div class="container-fluid">
         <div class="row afterLoc">
-            <div class="col-md-7">
-                <h2 class="beforeH2LocationSection">Location #3</h2>
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <h2>Location #3</h2>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
                 <a href="https://www.google.com/" class="button" role="button">Join Us</></a>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 col-sm-12 col-xs-12">
                 <img class="img-responsive" src="Images/tuscany-grape-field-nature-51947.jpeg" />
             </div>
         </div>
     </div>
     <div>
         <div class="container-fluid">
-            <div class="regBackground">
-                <h1 id="locFirstSection">Ammenities</h1>
-                <p id="locSmallerSection">Some stuff for you to enjoy</p>
+            <div class="darkerBackground">
+                <h1 class="h1Section">Ammenities</h1>
+                <p class="pSmallerSection">Some stuff for you to enjoy</p>
             </div>
         </div>
     </div>
     <div class="container-fluid compressHgt">
+        <!--compressHgt class is to add padding to the next 3 rows-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 removePad textPos">
-                    <img class="img-responsive" src="Images/3b-348x348.jpg" style="height:475px;" />
+                <div class="col-md-4 col-sm-12 col-xs-12 removePad textPos">
+                    <img class="img-responsive" src="Images/3b-348x348.jpg" />
                     <div class="inner_box">
-                        <h2><a class="colChange" href="https://www.google.com/">RECEPTIONS</a></h2>
+                        <h2><a class="colChange" href="https://www.google.com/">RECEPTIONS</a></h2><!--the colChange class is to change the font size when the text is hovered over-->
                     </div>
                 </div>
-                <div class="col-md-4 centered">
+                <div class="col-md-4 col-sm-12 col-xs-12 centered">
                     <h1 class="beforeH2LocationSection">A Villa for Every Occasion</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <a href="https://www.google.com/" class="button" role="button">Check It Out</a>
                 </div>
-                <div class="col-md-4 removePad textPos">
-                    <img class="img-responsive" src="Images/42-348x348.jpg" style="height:475px;" />
+                <div class="col-md-4 col-sm-12 col-xs-12 removePad textPos">
+                    <img class="img-responsive" src="Images/42-348x348.jpg" />
                     <div class="inner_box">
                         <h2><a class="colChange" href="https://www.google.com/">RELAX BY THE POOL</a></h2>
                     </div>
@@ -128,18 +135,18 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 centered">
+                <div class="col-md-4 col-sm-12 col-xs-12 centered">
                     <h1 class="beforeH2LocationSection">What Sets Us Apart</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <a href="https://www.google.com/" class="button" role="button">Check It Out</a>
                 </div>
-                <div class="col-md-4 removePad textPos">
-                    <img class="img-responsive" src="Images/314-348x348.jpg" style="height:475px;" />
+                <div class="col-md-4 col-sm-12 col-xs-12 removePad textPos">
+                    <img class="img-responsive" src="Images/314-348x348.jpg" />
                     <div class="inner_box">
                         <h2><a class="colChange" href="https://www.google.com/">FEELS LIKE HOME</a></h2>
                     </div>
                 </div>
-                <div class="col-md-4 centered">
+                <div class="col-md-4 col-sm-12 col-xs-12 centered">
                     <h1 class="beforeH2LocationSection">Talk to the Staff</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <a href="https://www.google.com/" class="button" role="button">Check It Out</a>
@@ -148,19 +155,19 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 removePad textPos">
-                    <img class="img-responsive" src="Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg" style="height:475px;" />
+                <div class="col-md-4 col-sm-12 col-xs-12  removePad textPos">
+                    <img class="img-responsive" src="Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
                     <div class="inner_box">
                         <h2><a class="colChange" href="https://www.google.com/">ENJOY THE VIEWS</a></h2>
                     </div>
                 </div>
-                <div class="col-md-4 centered">
+                <div class="col-md-4 col-sm-12 col-xs-12 centered">
                     <h1 class="beforeH2LocationSection">Book Your Villa</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br /><br />
                     <a href="https://www.google.com/" class="button" role="button">Check It Out</a>
                 </div>
-                <div class="col-md-4 removePad textPos">
-                    <img class="img-responsive" src="Images/Villa-Vanna-231-348x348.jpg" style="height:475px;" />
+                <div class="col-md-4 col-sm-12 col-xs-12 removePad textPos">
+                    <img class="img-responsive" src="Images/Villa-Vanna-231-348x348.jpg" />
                     <div class="inner_box">
                         <h2><a class="colChange" href="https://www.google.com/">PRIVATE DINING</a></h2>
                     </div>
@@ -169,12 +176,12 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="regBackground">
-            <h1 id="locFirstSection">Reviews</h1>
-            <p id="locSmallerSection">What Our Customer's Say</p>
+        <div class="darkerBackground">
+            <h1 class="h1Section">Reviews</h1>
+            <p class="pSmallerSection">What Our Customer's Say</p>
         </div>
     </div>
-    <div class="container" style="padding-top:20px; padding-bottom:20px;">
+    <div class="container" style="padding-top:20px; padding-bottom:20px;"><!--carousel Bootstrap component-->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators height" id="dark">
@@ -183,8 +190,8 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" style="height:200px;">
-                <div class="item active height">
+            <div class="carousel-inner" style="height:200px;">  <!--had to use a inline style to make the height of the carousel inner 200px in order to properly show on screen-->
+                <div class="item active ">
                     <h3 class="carouselText">I love it! I love it! I love it!<br /><br /><i>Stella, avid napper</i></h3>
                     <div class="carousel-caption">
                         <h2></h2>
@@ -215,29 +222,29 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="regBackground">
-            <h1 id="locFirstSection">Contact</h1>
-            <p id="locSmallerSection">We have the answers</p>
+        <div class="darkerBackground">
+            <h1 class="h1Section">Contact</h1>
+            <p class="pSmallerSection">We have the answers</p>
         </div>
     </div>
     <div class="container">
         <div class="row contactFloat">
-            <div class="col-md-5">
+            <div class="col-md-5 col-sm-12 col-xs-12">
                 <p>Contact us and we will get back to you within 24 hours.</p>
                 <p><i class="glyphicon glyphicon-map-marker"></i> Cleveland, OH</p>
                 <p><i class="glyphicon glyphicon-phone"></i> 555-555-5959</p>
                 <p><i class="glyphicon glyphicon-envelope"></i> name@email.com</p>
             </div>
-            <div class="col-md-7">
-                <form class="form-inline">
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <form class="form-inline"><!--Bootstrap contact form componenet-->
                     <div class="form-group">
                         <input type="text" class="form-control " id="usr" placeholder="Name" style="width:290px;">
-                        <input type="email" class="form-control" id="email" placeholder="Email" style="width:290px; margin-left:45px;">
+                        <input type="email" class="form-control" id="email" placeholder="Email" style="width:290px; margin-left:45px;"><!--inline style to try and line up email input to right margin.  Doesn't work to well in responsive-->
                     </div>
                 </form>
                 <form>
                     <div class="form-group">
-                        <textarea class="form-control topMargin" rows="5" id="comment" placeholder="Comment"></textarea>
+                        <textarea class="form-control topMargin" rows="5" id="comment" placeholder="Comment"></textarea><!--comment section-->
                     </div>
                     <button class="button" id="buttonRight">Submit</button>
                 </form>
@@ -245,7 +252,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="regBackground">
+        <div class="darkerBackground">
             <footer>
                 <h1 id="locFooter">Created by: Mike Woods</h1>
                 <p id="copyright">NOT AT ALL copyrighted</p>

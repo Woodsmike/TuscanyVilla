@@ -1,7 +1,4 @@
-﻿/*font-family: 'Lemonada', cursive; font-family: 'Playfair Display', serif; 
-    font-family: 'Josefin Sans', sans-serif; font-family: 'Abel', sans-serif; 
-    font-family: 'Shadows Into Light', cursive; font-family: 'Gruppo', cursive;*/
-#logoImg {
+﻿#logoImg {  /*I used this id to make the logo the correct size*/
     width: 35px;
     margin-top: 0px;
     margin-right: 3px;
@@ -16,14 +13,8 @@ h1 {
     font-size: 50px;
 }
 
-.centered {
+.centered { 
     text-align: center;
-}
-
-nav#navvy.navbar.navbar-static-top {
-    margin-bottom: 0px;
-    background-color: #474E5D;
-    color: #FFF6F0;
 }
 
 li {
@@ -31,11 +22,11 @@ li {
     padding-right: 8px;
 }
 
-ol#dark {
+ol#dark {  /*ordered lines in navbar color*/
     color: #474E5D;
 }
 
-nav#navvy.navbar.navbar-static-top {
+nav#navvy.navbar.navbar-static-top {  /*the next 3 items keep the navbar pinned to the top and keep the background color white*/
     margin-bottom: 0px;
     background-color: #474E5D;
     color: #FFF6F0;
@@ -49,23 +40,17 @@ nav#navvy.navbar.navbar-static-top {
         background: none;
     }
 
-.navbar-header {
+.navbar-header { /*this item keeps the navbar links pushed to the right on the navbar*/
     nav-right: auto;
 }
 
-button.navbar-toggle {
+button.navbar-toggle { /*this class and the next class is to all the hamburger icon to be seen*/
     border: 1px solid #FFF6F0;
 }
 
 span.icon-bar {
     border: 1px solid #FFF6F0;
 }
-
-img {
-    width: 100%;
-    height: auto;
-}
-
 
 #firstSection {
     text-align: center;
@@ -75,8 +60,13 @@ img {
     color: #FFF6F0;
     font-family: 'Playfair Display';
     position: absolute;
-    bottom: 300px;
-    left: 360px;
+    bottom: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    /* I tried also using px to keep text aligned,
+    neither worked perfectly.
+    bottom: 300px;  
+    left: 360px;*/
 }
 
 #smallerSection {
@@ -86,18 +76,21 @@ img {
     font-family: 'Playfair Display';
     color: #FFF6F0;
     height: auto;
+    /*bottom: 270px;
+    left: 420px;*/
     position: absolute;
-    bottom: 270px;
-    left: 420px;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.regBackground {
+.darkerBackground {
     background-color: #474E5D;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#locFirstSection {
+h1.h1Section {
     text-align: center;
     font-size: 50px;
     padding-top: 0px;
@@ -106,7 +99,7 @@ img {
     font-family: 'Playfair Display';
 }
 
-#locSmallerSection {
+p.pSmallerSection {
     text-align: center;
     font-size: 30px;
     font-family: 'Playfair Display';
@@ -135,9 +128,6 @@ img {
     padding: 40px;
 }
 
-.beforeH2LocationSection {
-    padding-top: 20px
-}
 
 .afterLocWithBG {
     margin: 4px;
@@ -155,7 +145,7 @@ h2:hover + .hoverOver1 {
     display: block;
 }
 #textPos { /**/
-    position: relative;
+    position: absolute;
 }
 
 .textPos .inner_box {
@@ -218,9 +208,6 @@ div.transbox {
     padding: 0px;
 }
 
-div.height {
-    height: 504px;
-}
 
 .removePad {
     padding: 0px;
@@ -233,11 +220,6 @@ h3.carouselText {
     color: #474E5D;
     padding-top: 10px;
     padding-bottom: 30px;
-}
-
-#compressForm {
-    margin: 45px;
-    padding: 45px;
 }
 
 input#email.form-control {
